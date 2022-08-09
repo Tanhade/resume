@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Rubik+Moonrocks&family=Source+Sans+Pro&display=swap');
+/* Tag name */
+body {
+    background-color: aliceblue;
+    color: #2F4F4F;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    line-height: 20px ;
+    font-weight: normal;
+    letter-spacing: 1px;
+}
+/* Class */
+.face {
+border: 2px;
+border-radius: 10px;
+padding: 10px;
+background: rgb(241, 234, 248);
+margin-bottom: 10px;
+text-align: center;
+margin-left: 40px;
+}
+.face h1 {
+    padding-top: 40px;
+}
+.info {
+    display: flex;
+}
+/* Id */
+#header {
+border: 2px;
+border-radius: 10px;
+padding: 10px;
+background:#FFF8DC;
+margin-bottom: 10px;
+
+}
+.card {
+    border: 2px;
+    border-radius: 10px;
+    background-color: #c0fa8b;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.card li {
+    margin-bottom: 5px;
+}
+.card2 {
+    border-radius: 10px;
+    background-color: #ffff81;
+    margin-bottom: 10px;
+    padding: 10px;  
+}
+.container {
+    margin: auto;
+    max-width: 700px;
+    padding: 15px;
+}
+ img {
+     border: 2px;
+     border-radius: 8px;
+     width: 250px;
+     box-shadow: 4px 4px 14px black;
+     margin-bottom: 10px;
+    }
+    a {
+        color: blue;
+            text-decoration: none;
+    }
+    a:hover {
+        color: red;
+        text-decoration: underline;
+    }
+        a:active {
+            color: brown;
+        }
+        .btn:hover {
+            cursor: pointer;
+        }
+        .table td {
+            padding-bottom: 5px;
+        }
+        .form h3 {
+text-align: center;}
+.form-group {
+    display: block;
+    font-size: 15px;
+}
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid grey;
+    color: black;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+}
+.form-row {
+margin-bottom: 10px;
+display: flex;
+}
+.form-row .form-group {
+    width: 50%;
+    margin-right: 20px;
+}
+.form-row .form-group :last-child {
+    margin-right: 0;
+}
+@media (max-width:660px) {
+    .container {
+        font-size: 15px;
+        text-align: center;
+        padding: 10px;
+    }
+    .form-row {
+        display: block;
+    }
+    .form-row .form-group {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    .info {
+        display: block;
+        text-align: center;
+    }
+}
