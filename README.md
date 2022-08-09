@@ -1,2 +1,2 @@
 ## My first site-resume 
-[Duck Duck Go](https://duckduckgo.com).
+[Site]([https://duckduckgo.com](https://tanhade.github.io/resume/)).
